@@ -1,0 +1,21 @@
+PODS:
+  - GoogleMaps (1.13.2)
+  - OMGHTTPURLRQ/UserAgent (3.1.1)
+  - TDOAuth (1.1.2):
+    - OMGHTTPURLRQ/UserAgent
+  - YelpAPI (1.0.2):
+    - TDOAuth (~> 1.1)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - YelpAPI
+
+SPEC CHECKSUMS:
+  GoogleMaps: b20a103ff307f58392e603cf142e59d7e30374c1
+  OMGHTTPURLRQ: 633f98ee745aeda02345935a52eec1784cddb589
+  TDOAuth: f7e356e834295b83c7b5066ee72a30f128c5f722
+  YelpAPI: 737ce58ba1403757aee96bc34a87ddca745e4cb4
+
+PODFILE CHECKSUM: 81c5c428c73b1d9fb40fcd481b145f8aeb3b3466
+
+COCOAPODS: 1.0.0

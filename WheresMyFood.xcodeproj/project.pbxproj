@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36C2F5B4BB0C6F5866C54076 /* libPods-WheresMyFood.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 221A5D52D741C8B2A933FCDD /* libPods-WheresMyFood.a */; };
+		4810B7461CEB8F8800E48E52 /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 4810B7451CEB8F8800E48E52 /* Search.m */; };
+		4810B74B1CEB9D6100E48E52 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4810B7491CEB9D6100E48E52 /* SearchViewController.m */; };
+		4810B74C1CEB9D6100E48E52 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4810B74A1CEB9D6100E48E52 /* SearchViewController.xib */; };
+		481C21621CEE483E002C2E12 /* RestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481C21601CEE483E002C2E12 /* RestaurantViewController.m */; };
+		481C21631CEE483E002C2E12 /* RestaurantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481C21611CEE483E002C2E12 /* RestaurantViewController.xib */; };
+		482360F11CEBFF8E0066DE66 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482360EF1CEBFF8E0066DE66 /* FavoritesViewController.m */; };
+		482360F21CEBFF8E0066DE66 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 482360F01CEBFF8E0066DE66 /* FavoritesViewController.xib */; };
+		482360FE1CEC0D9D0066DE66 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482360FD1CEC0D9D0066DE66 /* CustomTabBarController.m */; };
+		48D344A91CEFF7D800E5CB31 /* StreetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D344A71CEFF7D800E5CB31 /* StreetViewController.m */; };
+		48D344AA1CEFF7D800E5CB31 /* StreetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48D344A81CEFF7D800E5CB31 /* StreetViewController.xib */; };
+		48ED5A091CED4E100031C345 /* SearchResultViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ED5A071CED4E100031C345 /* SearchResultViewTableViewCell.m */; };
+		48ED5A0A1CED4E100031C345 /* SearchResultViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48ED5A081CED4E100031C345 /* SearchResultViewTableViewCell.xib */; };
+		48F80F911CEB8CAB0029F4AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F80F901CEB8CAB0029F4AE /* main.m */; };
+		48F80F941CEB8CAB0029F4AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F80F931CEB8CAB0029F4AE /* AppDelegate.m */; };
+		48F80F9A1CEB8CAB0029F4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F80F981CEB8CAB0029F4AE /* Main.storyboard */; };
+		48F80F9D1CEB8CAB0029F4AE /* WheresMyFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48F80F9B1CEB8CAB0029F4AE /* WheresMyFood.xcdatamodeld */; };
+		48F80F9F1CEB8CAB0029F4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F80F9E1CEB8CAB0029F4AE /* Assets.xcassets */; };
+		48F80FA21CEB8CAB0029F4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F80FA01CEB8CAB0029F4AE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19AE0F32A1AC256D60541540 /* Pods-WheresMyFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheresMyFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-WheresMyFood/Pods-WheresMyFood.release.xcconfig"; sourceTree = "<group>"; };
+		19DF51C1CBCF15FA0C858B6B /* Pods-WheresMyFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheresMyFood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WheresMyFood/Pods-WheresMyFood.debug.xcconfig"; sourceTree = "<group>"; };
+		221A5D52D741C8B2A933FCDD /* libPods-WheresMyFood.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WheresMyFood.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4810B7441CEB8F8800E48E52 /* Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search.h; sourceTree = "<group>"; };
+		4810B7451CEB8F8800E48E52 /* Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Search.m; sourceTree = "<group>"; };
+		4810B7481CEB9D6100E48E52 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		4810B7491CEB9D6100E48E52 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		4810B74A1CEB9D6100E48E52 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		481C215F1CEE483E002C2E12 /* RestaurantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantViewController.h; sourceTree = "<group>"; };
+		481C21601CEE483E002C2E12 /* RestaurantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantViewController.m; sourceTree = "<group>"; };
+		481C21611CEE483E002C2E12 /* RestaurantViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantViewController.xib; sourceTree = "<group>"; };
+		482360EE1CEBFF8E0066DE66 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		482360EF1CEBFF8E0066DE66 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		482360F01CEBFF8E0066DE66 /* FavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		482360FC1CEC0D9D0066DE66 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		482360FD1CEC0D9D0066DE66 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		48D344A61CEFF7D800E5CB31 /* StreetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreetViewController.h; sourceTree = "<group>"; };
+		48D344A71CEFF7D800E5CB31 /* StreetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreetViewController.m; sourceTree = "<group>"; };
+		48D344A81CEFF7D800E5CB31 /* StreetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreetViewController.xib; sourceTree = "<group>"; };
+		48ED5A061CED4E100031C345 /* SearchResultViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewTableViewCell.h; sourceTree = "<group>"; };
+		48ED5A071CED4E100031C345 /* SearchResultViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewTableViewCell.m; sourceTree = "<group>"; };
+		48ED5A081CED4E100031C345 /* SearchResultViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultViewTableViewCell.xib; sourceTree = "<group>"; };
+		48F80F8C1CEB8CAB0029F4AE /* WheresMyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheresMyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F80F901CEB8CAB0029F4AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48F80F921CEB8CAB0029F4AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48F80F931CEB8CAB0029F4AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48F80F991CEB8CAB0029F4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48F80F9C1CEB8CAB0029F4AE /* WheresMyFood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WheresMyFood.xcdatamodel; sourceTree = "<group>"; };
+		48F80F9E1CEB8CAB0029F4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48F80FA11CEB8CAB0029F4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48F80FA31CEB8CAB0029F4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48F80F891CEB8CAB0029F4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C2F5B4BB0C6F5866C54076 /* libPods-WheresMyFood.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D31363B89843090C0983E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19DF51C1CBCF15FA0C858B6B /* Pods-WheresMyFood.debug.xcconfig */,
+				19AE0F32A1AC256D60541540 /* Pods-WheresMyFood.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4810B7471CEB9D4900E48E52 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4810B7481CEB9D6100E48E52 /* SearchViewController.h */,
+				4810B7491CEB9D6100E48E52 /* SearchViewController.m */,
+				4810B74A1CEB9D6100E48E52 /* SearchViewController.xib */,
+				482360EE1CEBFF8E0066DE66 /* FavoritesViewController.h */,
+				482360EF1CEBFF8E0066DE66 /* FavoritesViewController.m */,
+				482360F01CEBFF8E0066DE66 /* FavoritesViewController.xib */,
+				482360FC1CEC0D9D0066DE66 /* CustomTabBarController.h */,
+				482360FD1CEC0D9D0066DE66 /* CustomTabBarController.m */,
+				48ED5A061CED4E100031C345 /* SearchResultViewTableViewCell.h */,
+				48ED5A071CED4E100031C345 /* SearchResultViewTableViewCell.m */,
+				48ED5A081CED4E100031C345 /* SearchResultViewTableViewCell.xib */,
+				481C215F1CEE483E002C2E12 /* RestaurantViewController.h */,
+				481C21601CEE483E002C2E12 /* RestaurantViewController.m */,
+				481C21611CEE483E002C2E12 /* RestaurantViewController.xib */,
+				48D344A61CEFF7D800E5CB31 /* StreetViewController.h */,
+				48D344A71CEFF7D800E5CB31 /* StreetViewController.m */,
+				48D344A81CEFF7D800E5CB31 /* StreetViewController.xib */,
+			);
+			name = Screens;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		481E6D8D1CEE96730067FD9E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		48F80F831CEB8CAB0029F4AE = {
+			isa = PBXGroup;
+			children = (
+				48F80F8E1CEB8CAB0029F4AE /* WheresMyFood */,
+				48F80F8D1CEB8CAB0029F4AE /* Products */,
+				18D31363B89843090C0983E4 /* Pods */,
+				54407B2D34A9B67F6B4B559A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48F80F8D1CEB8CAB0029F4AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F80F8C1CEB8CAB0029F4AE /* WheresMyFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48F80F8E1CEB8CAB0029F4AE /* WheresMyFood */ = {
+			isa = PBXGroup;
+			children = (
+				481E6D8D1CEE96730067FD9E /* Utils */,
+				4810B7471CEB9D4900E48E52 /* Screens */,
+				48F80FA91CEB8CB10029F4AE /* YelpUtils */,
+				48F80F921CEB8CAB0029F4AE /* AppDelegate.h */,
+				48F80F931CEB8CAB0029F4AE /* AppDelegate.m */,
+				48F80F981CEB8CAB0029F4AE /* Main.storyboard */,
+				48F80F9E1CEB8CAB0029F4AE /* Assets.xcassets */,
+				48F80FA01CEB8CAB0029F4AE /* LaunchScreen.storyboard */,
+				48F80FA31CEB8CAB0029F4AE /* Info.plist */,
+				48F80F9B1CEB8CAB0029F4AE /* WheresMyFood.xcdatamodeld */,
+				48F80F8F1CEB8CAB0029F4AE /* Supporting Files */,
+			);
+			path = WheresMyFood;
+			sourceTree = "<group>";
+		};
+		48F80F8F1CEB8CAB0029F4AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48F80F901CEB8CAB0029F4AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48F80FA91CEB8CB10029F4AE /* YelpUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4810B7441CEB8F8800E48E52 /* Search.h */,
+				4810B7451CEB8F8800E48E52 /* Search.m */,
+			);
+			name = YelpUtils;
+			sourceTree = "<group>";
+		};
+		54407B2D34A9B67F6B4B559A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				221A5D52D741C8B2A933FCDD /* libPods-WheresMyFood.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48F80F8B1CEB8CAB0029F4AE /* WheresMyFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F80FA61CEB8CAB0029F4AE /* Build configuration list for PBXNativeTarget "WheresMyFood" */;
+			buildPhases = (
+				71D5592F188F78C1D2E8A1F8 /* 📦 Check Pods Manifest.lock */,
+				48F80F881CEB8CAB0029F4AE /* Sources */,
+				48F80F891CEB8CAB0029F4AE /* Frameworks */,
+				48F80F8A1CEB8CAB0029F4AE /* Resources */,
+				C5867F637D5B81547338ED7C /* 📦 Embed Pods Frameworks */,
+				D4F2D9803A626B511C8D4D0D /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheresMyFood;
+			productName = WheresMyFood;
+			productReference = 48F80F8C1CEB8CAB0029F4AE /* WheresMyFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48F80F841CEB8CAB0029F4AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dinesh PS";
+				TargetAttributes = {
+					48F80F8B1CEB8CAB0029F4AE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y6FJ9G9KUM;
+					};
+				};
+			};
+			buildConfigurationList = 48F80F871CEB8CAB0029F4AE /* Build configuration list for PBXProject "WheresMyFood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48F80F831CEB8CAB0029F4AE;
+			productRefGroup = 48F80F8D1CEB8CAB0029F4AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48F80F8B1CEB8CAB0029F4AE /* WheresMyFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48F80F8A1CEB8CAB0029F4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F80FA21CEB8CAB0029F4AE /* LaunchScreen.storyboard in Resources */,
+				48F80F9F1CEB8CAB0029F4AE /* Assets.xcassets in Resources */,
+				4810B74C1CEB9D6100E48E52 /* SearchViewController.xib in Resources */,
+				482360F21CEBFF8E0066DE66 /* FavoritesViewController.xib in Resources */,
+				48F80F9A1CEB8CAB0029F4AE /* Main.storyboard in Resources */,
+				48ED5A0A1CED4E100031C345 /* SearchResultViewTableViewCell.xib in Resources */,
+				481C21631CEE483E002C2E12 /* RestaurantViewController.xib in Resources */,
+				48D344AA1CEFF7D800E5CB31 /* StreetViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71D5592F188F78C1D2E8A1F8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5867F637D5B81547338ED7C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WheresMyFood/Pods-WheresMyFood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F2D9803A626B511C8D4D0D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WheresMyFood/Pods-WheresMyFood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48F80F881CEB8CAB0029F4AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F80F9D1CEB8CAB0029F4AE /* WheresMyFood.xcdatamodeld in Sources */,
+				48D344A91CEFF7D800E5CB31 /* StreetViewController.m in Sources */,
+				4810B7461CEB8F8800E48E52 /* Search.m in Sources */,
+				482360FE1CEC0D9D0066DE66 /* CustomTabBarController.m in Sources */,
+				481C21621CEE483E002C2E12 /* RestaurantViewController.m in Sources */,
+				482360F11CEBFF8E0066DE66 /* FavoritesViewController.m in Sources */,
+				4810B74B1CEB9D6100E48E52 /* SearchViewController.m in Sources */,
+				48ED5A091CED4E100031C345 /* SearchResultViewTableViewCell.m in Sources */,
+				48F80F941CEB8CAB0029F4AE /* AppDelegate.m in Sources */,
+				48F80F911CEB8CAB0029F4AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48F80F981CEB8CAB0029F4AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F80F991CEB8CAB0029F4AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48F80FA01CEB8CAB0029F4AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F80FA11CEB8CAB0029F4AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48F80FA41CEB8CAB0029F4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48F80FA51CEB8CAB0029F4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48F80FA71CEB8CAB0029F4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DF51C1CBCF15FA0C858B6B /* Pods-WheresMyFood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dinesh Pandarinathan Subramani (ZKPJBDG36E)";
+				INFOPLIST_FILE = WheresMyFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineshps.WheresMyFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		48F80FA81CEB8CAB0029F4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AE0F32A1AC256D60541540 /* Pods-WheresMyFood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dinesh Pandarinathan Subramani (ZKPJBDG36E)";
+				INFOPLIST_FILE = WheresMyFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineshps.WheresMyFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48F80F871CEB8CAB0029F4AE /* Build configuration list for PBXProject "WheresMyFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F80FA41CEB8CAB0029F4AE /* Debug */,
+				48F80FA51CEB8CAB0029F4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F80FA61CEB8CAB0029F4AE /* Build configuration list for PBXNativeTarget "WheresMyFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F80FA71CEB8CAB0029F4AE /* Debug */,
+				48F80FA81CEB8CAB0029F4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48F80F9B1CEB8CAB0029F4AE /* WheresMyFood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48F80F9C1CEB8CAB0029F4AE /* WheresMyFood.xcdatamodel */,
+			);
+			currentVersion = 48F80F9C1CEB8CAB0029F4AE /* WheresMyFood.xcdatamodel */;
+			path = WheresMyFood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48F80F841CEB8CAB0029F4AE /* Project object */;
+}
